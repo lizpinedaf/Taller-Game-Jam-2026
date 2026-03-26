@@ -41,11 +41,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
-    uniqueID: 2913475701
-    locked: 0
   - name: Collision
     uniqueID: 113591085
+    locked: 0
+  - name: Ground
+    uniqueID: 2913475701
     locked: 0
   - name: WalkInfront
     uniqueID: 1500498057
