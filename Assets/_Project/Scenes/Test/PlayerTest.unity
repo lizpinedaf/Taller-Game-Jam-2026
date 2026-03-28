@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 126398554}
   - component: {fileID: 126398558}
   - component: {fileID: 126398557}
-  - component: {fileID: 126398556}
   - component: {fileID: 126398559}
+  - component: {fileID: 126398561}
+  - component: {fileID: 126398560}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -214,18 +215,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &126398556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126398553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 500f83a5588267b418a4b2063fb43a9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &126398557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,9 +242,9 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 126398556}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: Move
+      - m_Target: {fileID: 126398561}
+        m_TargetAssemblyTypeName: PlayerInputHandler, Assembly-CSharp
+        m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -393,6 +382,31 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.144, y: 0.16744024}
   m_EdgeRadius: 0
+--- !u!114 &126398560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126398553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b43219b4e797cdb479fc42be8e9e9d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  playerSettings: {fileID: 11400000, guid: 5d34c99c040e55e46974776e2d6a4e03, type: 2}
+--- !u!114 &126398561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126398553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f8e384a2d612143b69cfa5208b28f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputHandler
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
