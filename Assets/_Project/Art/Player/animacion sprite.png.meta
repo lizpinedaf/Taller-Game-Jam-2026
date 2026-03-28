@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2668ee39c20703b48a409c76bfe4c634
+guid: 76e5a8b00ddaac54f828955dd1bb783c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4220102141592637569
-    second: sidewall_0
+      213: -1372695154543798248
+    second: animacion sprite_0
+  - first:
+      213: 6418603045310346285
+    second: animacion sprite_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,17 +112,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sidewall_0
+      name: animacion sprite_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,42 +144,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1809e79e980d09a30800000000000000
-      internalID: 4220102141592637569
+      spriteID: 8185480a70533fce0800000000000000
+      internalID: -1372695154543798248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sidewall_1
+      name: animacion sprite_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4de799285ea649a4c8c791233ee1a762
-      internalID: -83622322
+      spriteID: d24b6f56675731950800000000000000
+      internalID: 6418603045310346285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sidewall_2
+      name: animacion sprite_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d7abe7f590bac4aaaee187c7709374
-      internalID: -1648995675
+      spriteID: eca0c0a7831a59b4b8bf43b54d916187
+      internalID: 2019922189
       vertices: []
       indices: 
       edges: []
@@ -182,7 +198,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 05f22ff208f12fe418c90649455f6d1f
+    spriteID: 978e1d1d4783f1b4d9a13f07c19161d0
     internalID: 0
     vertices: []
     indices: 
@@ -192,11 +208,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      sidewall_0: 4220102141592637569
-      sidewall_1: -83622322
-      sidewall_2: -1648995675
+      animacion sprite_0: -1372695154543798248
+      animacion sprite_1: 6418603045310346285
+      animacion sprite_2: 2019922189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
