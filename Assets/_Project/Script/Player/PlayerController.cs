@@ -4,15 +4,15 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerInputHandler))]
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private PlayerSettings playerSettings;
+    [SerializeField] private PlayerSettings _playerSettings;
 
-    private Rigidbody2D rb;
-    private PlayerInputHandler input;
+    private Rigidbody2D _rb;
+    private PlayerInputHandler _input;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        input = GetComponent<PlayerInputHandler>();
+        _rb = GetComponent<Rigidbody2D>();
+        _input = GetComponent<PlayerInputHandler>();
     }
 
     void Update()
@@ -27,8 +27,8 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        rb.linearVelocity = input.MoveInput * playerSettings.Speed;
-        FlipSprite(input.MoveInput.x);
+        _rb.linearVelocity = _input.MoveInput * _playerSettings.Speed;
+        FlipSprite(_input.MoveInput.x);
     }
 
     public void FlipSprite(float directionX)
